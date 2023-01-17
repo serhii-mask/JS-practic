@@ -8,16 +8,15 @@ let total = 0;
 // console.log(total);
 
 for (const value of cart) {
-    total += value;
-};
+   total += value;
+}
 
 console.log(total);
-
 
 // -----------------
 
 for (let i = 0; i < cart.length; i += 1) {
-    cart[i] = Math.round(cart[i] * 1.1);
-};
+   cart[i] = Math.round(cart[i] * 1.1);
+}
 
 console.log(cart);

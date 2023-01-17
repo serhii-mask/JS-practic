@@ -11,20 +11,18 @@ let message = `Користувач ${loginToFind} не знайдено.`;
 
 // console.log(message);
 
-
 // --------------------------
 
 if (logins.includes(loginToFind)) {
-    message = `Користувач ${loginToFind} знайдено.`;
+   message = `Користувач ${loginToFind} знайдено.`;
 }
 
 console.log(message);
 
-
 // ----------------------------
 
 const mess = logins.includes(loginToFind)
-    ? `Користувач ${loginToFind} знайдено.`
-    : `Користувач ${loginToFind} не знайдено.`;
+   ? `Користувач ${loginToFind} знайдено.`
+   : `Користувач ${loginToFind} не знайдено.`;
 
 console.log(mess);

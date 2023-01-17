@@ -1,7 +1,7 @@
 const friends = ['Mango', 'Piter', 'Romeo', 'Alex', 'Fixik'];
 console.table(friends);
 
-friends[2] = 'MAKARON'
+friends[2] = 'MAKARON';
 
 console.log(friends[2]);
 
@@ -31,12 +31,12 @@ console.table(names);
 const nLastIndex = names.length - 1;
 
 for (let i = 0; i <= nLastIndex; i += 1) {
-    names[i] += '-1';
+   names[i] += '-1';
 
-    console.log(i);
-    console.log(names[i]);
+   console.log(i);
+   console.log(names[i]);
 }
 
 for (const name of names) {
-    console.log('name "for of":', name);
+   console.log('name "for of":', name);
 }
