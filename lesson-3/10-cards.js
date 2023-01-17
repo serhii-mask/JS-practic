@@ -1,10 +1,4 @@
-const cards = [
-    'Card-1',
-    'Card-2',
-    'Card-3',
-    'Card-4',
-    'Card-5',
-];
+const cards = ['Card-1', 'Card-2', 'Card-3', 'Card-4', 'Card-5'];
 
 console.table(cards);
 
@@ -20,7 +14,7 @@ console.table(cards);
 const cardToInsert = 'Card-6';
 const indx = 3;
 
-cards.splice(indx, 0, cardToInsert)
+cards.splice(indx, 0, cardToInsert);
 
 console.table(cards);
 
