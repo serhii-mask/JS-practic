@@ -1,4 +1,5 @@
 // Array.prototype.forEach(callback (currentValue, endex, array), thisArg)
+// Поелементно перебирає масив, нічого не повертаючи. Заміна for
 
 const numbers = [5, 10, 15, 20, 25, 30];
 
