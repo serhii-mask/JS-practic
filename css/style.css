@@ -1,0 +1,10 @@
+.counter {
+	display: flex;
+	align-items: center;
+}
+
+.js-value {
+	margin: 5px;
+	font-size: 40px;
+	font-weight: 700;
+}
