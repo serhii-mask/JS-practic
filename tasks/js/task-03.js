@@ -14,6 +14,7 @@ const images = [
 ];
 
 const galleryEl = document.querySelector('.gallery');
+galleryEl.classList.add('flex-box');
 
 const makeImageEl = imageList => {
    return imageList.map(image => {
