@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Delegation</title>
+      <style>
+         #parent,
+         #child,
+         #inner-child {
+            margin: 16px;
+            padding: 16px;
+            border: 1px solid #ffc107;
+            border-radius: 4px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+         }
+
+         #parent {
+            background-color: #673ab7;
+         }
+
+         #child {
+            background-color: #448aff;
+         }
+
+         #inner-child {
+            background-color: #009688;
+         }
+
+         button {
+            font-size: 22px;
+            margin: 5px;
+            border-radius: 5px;
+         }
+
+         .container {
+            display: flex;
+            flex-wrap: wrap;
+            outline: 3px solid yellow;
+            padding: 2px;
+         }
+
+         ul {
+            list-style: none;
+         }
+
+         .tags__btn--active {
+            color: #fff;
+            background-color: #448aff;
+            border-color: #448aff;
+         }
+
+         /* li {
+            padding: 5px;
+            outline: 1px solid yellow;
+            margin: 5px;
+         } */
+      </style>
+   </head>
+   <body>
+      <a href="./index.html">На головну</a>
+      <!-- <h1>01</h1> -->
+      <!-- <div id="parent">
+         PARENT
+         <div id="child">
+            CHILD
+            <div id="inner-child">INNER CHILD</div>
+         </div>
+      </div> -->
+
+      <!-- <h1>02</h1> -->
+      <!-- <button class="js-add-btn" type="button">Добавити кнопку</button>
+      <br />
+      <div class="container js-container">
+         <button type="button">Кнопка 1</button
+         ><button type="button">Кнопка 2</button
+         ><button type="button">Кнопка 3</button
+         ><button type="button">Кнопка 4</button
+         ><button type="button">Кнопка 5</button>
+      </div> -->
+
+      <!-- <h1>03</h1>
+      <ul class="container js-tags">
+         <li class="tags__item">
+            <button class="tags__btn" data-value="html">#html</button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="css">#css</button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="javascript">
+               #javascript
+            </button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="npm">#npm</button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="webpack">#webpack</button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="react">#react</button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="redux">#redux</button>
+         </li>
+         <li class="tags__item">
+            <button class="tags__btn" data-value="nodejs">#nodejs</button>
+         </li>
+      </ul> -->
+
+      <h1>04</h1>
+      <div class="palette js-pallete">
+         <div class="color-card">
+            <div
+               class="color-swatch"
+               data-hex="#955014"
+               data-rgb="149,80,20"
+               style="background-color: #955014"
+            ></div>
+            <div class="color=meta">
+               <p>HEX: #955014</p>
+               <p>RGB: 149,80,20</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- <script src="./lesson-15-delegation/01-bubbling.js" type="module"></script> -->
+      <!-- <script src="./lesson-15-delegation/02-delegation.js" type="module"></script> -->
+      <!-- <script src="./lesson-15-delegation/03-tags.js" type="module"></script> -->
+      <script
+         src="./lesson-15-delegation/04-colorpicker.js"
+         type="module"
+      ></script>
+   </body>
+</html>
